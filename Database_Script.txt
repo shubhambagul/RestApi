@@ -1,0 +1,12 @@
+-- Create Database
+CREATE DATABASE `student132` /*!40100 DEFAULT CHARACTER SET latin1 */;
+
+-- Create table
+
+DROP TABLE IF EXISTS `student132`.`studentinfo`;
+CREATE TABLE  `student132`.`studentinfo` (
+  `id` int(11) NOT NULL,
+  `age` int(11) NOT NULL,
+  `name` varchar(255) default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
